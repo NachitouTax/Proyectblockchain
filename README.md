@@ -24,8 +24,11 @@ CodeFund es una plataforma de crowdfunding basada en Web3 que permite financiar 
 ---
 
 ## 🗃️ Instala Dependencias
+- **Entornos Virtuales**
+- python -m venv venv
+- source venv/bin/activate          # macOS / Linux
+- venv\Scripts\activate             # Windows
 
-python -m venv venv
-source venv/bin/activate          # macOS / Linux
-venv\Scripts\activate             # Windows
+- pip install fastapi uvicorn
+
 
