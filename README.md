@@ -101,31 +101,7 @@ http://localhost:3000
 
 ---
 
-## 💡 Funcionamiento general
 
-### ➤ Creación de proyecto
-
-- El desarrollador completa un formulario con:
-  - Nombre del proyecto.
-  - Descripción.
-  - Meta de financiamiento.
-  - Deadline.
-  - Milestones.
-- Los datos se guardan en la base mock (más adelante en la blockchain).
-
-### ➤ Visualización de proyectos
-
-- El frontend consulta la API:
-
-```
-GET /api/v1/projects
-```
-
-- Se renderizan cards mostrando:
-  - Nombre del proyecto.
-  - ETH recaudados.
-  - Meta.
-  - Barra de progreso.
 
 ### ➤ MetaMask
 
@@ -135,18 +111,6 @@ GET /api/v1/projects
   - Enviar contribuciones on-chain.
   - Verificar hitos on-chain.
 
-### ➤ Lógica de hitos (milestones)
-
-Cada proyecto define hitos:
-- descripción
-- monto a liberar
-- fecha límite (deadline)
-
-La lógica futura será:
-- Si el hito se cumple → se libera ETH al desarrollador.
-- Si no se cumple → los contribuyentes pueden pedir refund.
-
----
 
 ## 📈 Estado del proyecto
 
@@ -155,10 +119,3 @@ La lógica futura será:
 🔜 Integración real con Smart Contracts.  
 🔜 Lógica de liberación de fondos on-chain y refunds.
 
----
-
-## 👤 Autor
-
-- Nachitou
-
----
